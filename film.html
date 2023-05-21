@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <ul>
+            <li><a href="UCP1_20210140110_A.html">A Day In My Life</a></li>
+            <li><a href="film.html">Film</a></li>
+            <li><a href="kalender.html">Calendar</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="film.css">
+        <meta charset="utf-8">
+    </head>
+    <body>
+            <h1>Narcos</h1>
+        <ul>
+            <li>
+                <h2 id="video">Video Pablo Escobar</h2>
+                <hr>
+                <video controls width="300" height="500" loop autoplay muted preload="auto">
+                    <source src="video pablo.mp4.mp4" type="video/mp4">
+                    <source src="video pablo.mp4.mp4" type="video/ogg">
+                    <source src="video pablo.mp4.mp4" type="video/webm">
+                    <track kind="captions" src="Video Pablo Escobar.mp4" srclang="en" label="English">
+                </video>
+            </li>
+            <li>
+                <h2 id="audio">Audio Pablo Escobar</h2>
+                <hr>
+                <audio controls>
+                    <source src="lagu pablo.mp3.mp3" type="audio/mp3">
+                </audio>
+            </li>
+            <li>
+                <h2 id="gambar">Foto Pablo Escobar</h2>
+                <hr>
+                <picture>
+                    <source media="(max-width: 600px)" srcset="https://cdnwpseller.gramedia.net/wp-content/uploads/2023/02/Pablo_Escobar_Mug.jpg">
+                    <source media="(max-width: 1200px)" srcset="https://pict.sindonews.net/dyn/850/pena/news/2022/12/19/177/973741/pablo-escobar-gembong-narkoba-yang-hampir-jadi-presiden-kolombia-bma.jpg">
+                    <img src="https://cdnwpseller.gramedia.net/wp-content/uploads/2023/02/Pablo_Escobar_Mug.jpg" alt="pic 1" style="width: 200px;">
+                </picture>
+            </li>
+        </ul>
+        <script src="film.js"></script>
+    </body>
+</html>
